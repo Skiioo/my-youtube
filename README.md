@@ -1,6 +1,6 @@
 # My YouTube
 
-Le but de ce projet est de recréer le front de youtube le plus fidèlement possible avec Nuxt 4 et Nuxt UI. L'idée derrière ce projet est de découvrir et utiliser Nuxt 4 et Nuxt UI.
+Le but de ce projet est de recréer le front de youtube le plus fidèlement possible avec Nuxt 4 et Nuxt UI. L'idée derrière ce projet est de découvrir et utiliser vueJS avec Nuxt 4 et Nuxt UI.
 
 ## Fonctionnalités
 
