@@ -5,7 +5,7 @@
     <div class="flex place-items-center ml-4 gap-5">
       <NuxtLink to="/">
         <div class="flex gap-1">
-          
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -25,8 +25,7 @@
           </svg>
           <span
             class="hidden md:inline-block md:w-32 lg:w-48 overflow-hidden truncate whitespace-nowrap"
-            >My Youtube</span
-          >
+          >My Youtube</span>
         </div>
       </NuxtLink>
     </div>

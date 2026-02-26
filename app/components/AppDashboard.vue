@@ -1,39 +1,39 @@
 <script setup lang="ts">
-import type { NavigationMenuItem } from "@nuxt/ui";
+import type { NavigationMenuItem } from '@nuxt/ui'
 
 const items: NavigationMenuItem[][] = [
   [
     {
-      label: "Home",
-      icon: "i-lucide-house",
+      label: 'Home',
+      icon: 'i-lucide-house',
 
-      to: "/",
+      to: '/'
     },
     {
-      label: "Subscription",
-      icon: "i-lucide-inbox",
-      badge: "4",
-      to: "/subscription",
+      label: 'Subscription',
+      icon: 'i-lucide-inbox',
+      badge: '4',
+      to: '/subscription'
     },
     {
-      label: "You",
-      icon: "i-lucide-youtube",
+      label: 'You',
+      icon: 'i-lucide-youtube',
       defaultOpen: true,
       children: [
         {
-          label: "Historical",
-          to: "/historical",
+          label: 'Historical',
+          to: '/historical'
         },
         {
-          label: "Members",
+          label: 'Members'
         },
         {
-          label: "Notifications",
-        },
-      ],
-    },
-  ],
-];
+          label: 'Notifications'
+        }
+      ]
+    }
+  ]
+]
 </script>
 
 <template>

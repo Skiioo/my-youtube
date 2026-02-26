@@ -1,6 +1,5 @@
 <template>
-    <div>
-        subscription
-
-    </div>
+  <div>
+    subscription
+  </div>
 </template>

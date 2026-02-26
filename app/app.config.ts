@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    colors:{
+    colors: {
       primary: 'black',
       neutral: 'zinc'
     },
@@ -42,5 +42,5 @@ export default defineAppConfig({
       }
     }
   },
-   title: 'My youtube'
+  title: 'My youtube'
 })

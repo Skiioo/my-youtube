@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Historical id
-    </div>
+  <div>
+    Historical id
+  </div>
 </template>

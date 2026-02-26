@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Historical
-    </div>
+  <div>
+    Historical
+  </div>
 </template>

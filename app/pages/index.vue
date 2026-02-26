@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <h1>Index</h1>
     <ul>
       <li>My - youtube</li>
