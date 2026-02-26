@@ -1,0 +1,40 @@
+{
+  "channels": [
+    {
+      "id": "ch_001",
+      "name": "Code Mastery",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "subscribers": 125000,
+      "verified": true,
+      "banner": "https://picsum.photos/seed/banner1/1200/300",
+      "description": "Frontend tutorials and modern JavaScript."
+    },
+    {
+      "id": "ch_002",
+      "name": "Vue Academy",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "subscribers": 84200,
+      "verified": false,
+      "banner": "https://picsum.photos/seed/banner2/1200/300",
+      "description": "Vue & Nuxt deep dives."
+    },
+    {
+      "id": "ch_003",
+      "name": "JS World",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "subscribers": 230000,
+      "verified": true,
+      "banner": "https://picsum.photos/seed/banner3/1200/300",
+      "description": "JavaScript content every week."
+    },
+    {
+      "id": "ch_004",
+      "name": "Tech Review",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "subscribers": 158000,
+      "verified": true,
+      "banner": "https://picsum.photos/seed/banner4/1200/300",
+      "description": "Tech news & opinions."
+    }
+  ]
+}

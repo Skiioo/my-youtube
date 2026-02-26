@@ -93,7 +93,7 @@ my-youtube/
 - Affichage du contenu
 - Interactions utilisateur -->
 
-## 🔧 Configuration
+<!-- ## 🔧 Configuration
 
 ### Variables d'environnement
 
@@ -101,7 +101,7 @@ Créer un fichier `.env.local` :
 ```env
 NUXT_PUBLIC_API_URL=https://api.example.com
 NUXT_PUBLIC_APP_NAME=My YouTube
-```
+``` -->
 
 ### Personnalisation
 

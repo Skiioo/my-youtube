@@ -1,0 +1,123 @@
+{
+  "videos": [
+    {
+      "id": "vid_001",
+      "title": "Build a YouTube Clone with Nuxt 3",
+      "description": "Complete frontend YouTube clone using Nuxt 3, Tailwind and composables.",
+      "thumbnail": "https://picsum.photos/seed/yt1/640/360",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "duration": "12:45",
+      "views": 154230,
+      "likes": 5421,
+      "commentsCount": 342,
+      "uploadedAt": "2025-01-12T14:32:00Z",
+      "category": "Development",
+      "channelId": "ch_001"
+    },
+    {
+      "id": "vid_002",
+      "title": "Understanding Vue 3 Reactivity",
+      "description": "Deep dive into the reactivity engine.",
+      "thumbnail": "https://picsum.photos/seed/yt2/640/360",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "duration": "18:20",
+      "views": 89450,
+      "likes": 3210,
+      "commentsCount": 210,
+      "uploadedAt": "2025-02-05T10:15:00Z",
+      "category": "Development",
+      "channelId": "ch_002"
+    },
+    {
+      "id": "vid_003",
+      "title": "Top 10 JavaScript Tricks in 2025",
+      "description": "Advanced JavaScript tips.",
+      "thumbnail": "https://picsum.photos/seed/yt3/640/360",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "duration": "9:58",
+      "views": 245900,
+      "likes": 12540,
+      "commentsCount": 921,
+      "uploadedAt": "2025-02-10T08:45:00Z",
+      "category": "Programming",
+      "channelId": "ch_003"
+    },
+
+    {
+      "id": "vid_004",
+      "title": "Nuxt 3 vs Next.js – Full Comparison",
+      "description": "Performance, DX, ecosystem comparison.",
+      "thumbnail": "https://picsum.photos/seed/yt4/640/360",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "duration": "21:34",
+      "views": 112780,
+      "likes": 4987,
+      "commentsCount": 401,
+      "uploadedAt": "2025-02-18T11:00:00Z",
+      "category": "Tech",
+      "channelId": "ch_004"
+    },
+
+    {
+      "id": "vid_005",
+      "title": "My Developer Desk Setup 2025",
+      "description": "Minimal and productive desk tour.",
+      "thumbnail": "https://picsum.photos/seed/yt5/640/360",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "duration": "14:12",
+      "views": 67320,
+      "likes": 2870,
+      "commentsCount": 143,
+      "uploadedAt": "2025-01-28T16:20:00Z",
+      "category": "Lifestyle",
+      "channelId": "ch_001"
+    },
+
+    {
+      "id": "vid_006",
+      "title": "Learn TypeScript in 30 Minutes",
+      "description": "Crash course for beginners.",
+      "thumbnail": "https://picsum.photos/seed/yt6/640/360",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "duration": "30:01",
+      "views": 345600,
+      "likes": 18230,
+      "commentsCount": 1102,
+      "uploadedAt": "2025-01-03T09:00:00Z",
+      "category": "Programming",
+      "channelId": "ch_003"
+    },
+
+    {
+      "id": "vid_007",
+      "title": "AI Will Replace Developers?",
+      "description": "Honest discussion about AI in tech.",
+      "thumbnail": "https://picsum.photos/seed/yt7/640/360",
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "duration": "16:42",
+      "views": 876000,
+      "likes": 40231,
+      "commentsCount": 5432,
+      "uploadedAt": "2025-02-20T13:00:00Z",
+      "category": "Tech",
+      "channelId": "ch_004"
+    },
+
+    {
+      "id": "vid_008",
+      "title": "CSS Animations You Should Know",
+      "description": "Modern CSS animation techniques.",
+      "thumbnail": "https://picsum.photos/seed/yt8/640/360",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "duration": "11:21",
+      "views": 124530,
+      "likes": 6123,
+      "commentsCount": 334,
+      "uploadedAt": "2025-02-11T15:30:00Z",
+      "category": "Design",
+      "channelId": "ch_002"
+    }
+
+  ]
+}
+
