@@ -1,20 +1,22 @@
 <template>
   <nav
-    class="flex place-content-between place-items-center h-15 fixed top-0 w-full backdrop-blur-xs"
+    class="flex place-content-between items-center h-15 fixed top-0 w-full backdrop-blur-xs"
   >
-    <div class="flex place-items-center ml-4 gap-5">
+    <div class="flex items-center ml-4 gap-5">
       <NuxtLink to="/">
         <div class="flex gap-1">
-          <UIcon name="i-lucide-youtube" class="size-6" />
+          <UIcon
+            name="i-lucide-youtube"
+            class="size-6"
+          />
           <span
             class="hidden md:inline-block md:w-32 lg:w-48 overflow-hidden truncate whitespace-nowrap"
-            >My Youtube</span
-          >
+          >My Youtube</span>
         </div>
       </NuxtLink>
     </div>
-    <template>
-      <div class="">
+    <div class="mr-4 flex gap-2">
+      <div>
         <UInput
           v-model="value"
           placeholder="Search..."
@@ -23,12 +25,15 @@
             base: '!rounded-full',
             wrapper: '!rounded-full',
             inner: '!rounded-full',
-            width: 'w-xl',
+            width: 'w-xl'
           }"
           size="xl"
           icon="i-lucide-search"
         >
-          <template v-if="value?.length" #trailing>
+          <template
+            v-if="value?.length"
+            #trailing
+          >
             <UButton
               color="neutral"
               variant="link"
@@ -40,17 +45,20 @@
           </template>
         </UInput>
       </div>
-    </template>
-    <div class="mr-4 flex gap-2">
-      <UIcon name="i-lucide-bell" class="size-6" />
-      <UIcon name="i-lucide-circle-user-round" class="size-6" />
-      
+    </div>
+    <div class="flex gap-2 items-center">
+      <UIcon
+        name="i-lucide-bell"
+        class="size-6"
+      />
+      <UIcon
+        name="i-lucide-circle-user-round"
+        class="size-6"
+      />
     </div>
   </nav>
 </template>
 
 <script setup>
-const value = ref("");
-
-const searchValue = ref("Click to clear");
+const value = ref('')
 </script>

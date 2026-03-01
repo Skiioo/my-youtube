@@ -1,38 +1,38 @@
 <script setup lang="ts">
-import type { NavigationMenuItem } from "@nuxt/ui";
+import type { NavigationMenuItem } from '@nuxt/ui'
 
 const items: NavigationMenuItem[][] = [
   [
     {
-      label: "Home",
-      icon: "i-lucide-house",
-      to: "/",
+      label: 'Home',
+      icon: 'i-lucide-house',
+      to: '/'
     },
     {
-      label: "Subs",
-      icon: "i-lucide-circle-user-round",
-      badge: "4",
-      to: "/subscription",
+      label: 'Subs',
+      icon: 'i-lucide-circle-user-round',
+      badge: '4',
+      to: '/subscription'
     },
     {
-      label: "You",
-      icon: "i-lucide-youtube",
+      label: 'You',
+      icon: 'i-lucide-youtube',
       defaultOpen: true,
       children: [
         {
-          label: "Historical",
-          to: "/historical",
+          label: 'Historical',
+          to: '/historical'
         },
         {
-          label: "Members",
+          label: 'Members'
         },
         {
-          label: "Notifications",
-        },
-      ],
-    },
-  ],
-];
+          label: 'Notifications'
+        }
+      ]
+    }
+  ]
+]
 </script>
 
 <template>
@@ -43,7 +43,10 @@ const items: NavigationMenuItem[][] = [
       class="h-full overflow-y-auto"
     >
       <template #header>
-        <UDashboardSidebarCollapse variant="subtle" class="z-2" />
+        <UDashboardSidebarCollapse
+          variant="subtle"
+          class="z-2"
+        />
       </template>
 
       <template #default="{ collapsed }">
@@ -52,10 +55,8 @@ const items: NavigationMenuItem[][] = [
           :collapsed="collapsed"
           :items="items[0]"
           orientation="vertical"
-        >
-        </UNavigationMenu>
+        />
       </template>
-      
     </UDashboardSidebar>
 
     <UDashboardPanel class="h-full overflow-y-auto">
