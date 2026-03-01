@@ -19,10 +19,11 @@ logs
 .idea
 
 # Local env files
-.env
-.env.*
-!.env.example
+# .env
+# .env.*
+# !.env.example
 
 # Markdown files
 SIDEBAR_COLLAPSE_GUIDE.md
+GRID_RESPONSIVE_METHOD.md
 
