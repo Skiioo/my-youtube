@@ -60,7 +60,7 @@ const items: NavigationMenuItem[][] = [
     </UDashboardSidebar>
 
     <UDashboardPanel class="h-full overflow-y-auto">
-      <NuxtPage class="mt-15" />
+      <NuxtPage />
     </UDashboardPanel>
   </UDashboardGroup>
 </template>
