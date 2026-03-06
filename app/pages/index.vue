@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen pr-2 pl-2 pb-2 overflow-y-auto">
+  <div class="min-h-screen pr-2 pb-2 overflow-y-auto">
     <div class="flex w-full h-10 fixed place-items-center gap-2 backdrop-blur-xs top-15 z-3">
       <UButton
         color="neutral"
@@ -76,20 +76,14 @@
     </div>
 
     <div
-      v-if="error"
-      class=""
-    >
-      <p>Erreur: {{ error?.message || error }}</p>
-    </div>
-
-    <div
       v-if="enrichedVideos?.length"
       class="mt-15 mb-15"
     >
       <div class="grid grid-cols-3">
-        <div
+        <NuxtLink
           v-for="video in enrichedVideos"
           :key="video.id"
+          :to="`/${video.id}`"
           class="relative p-2 w-full rounded-2xl transition-all duration-300 ease-out hover:bg-gray-200 dark:hover:bg-[#2A2A2E] hover:shadow-lg cursor-pointer"
         >
           <!-- Conteneur image qui prend toute la place disponible -->
@@ -115,9 +109,10 @@
               video.channelName
             }}</span>
           </div>
-        </div>
+        </NuxtLink>
       </div>
     </div>
+
     <div
       v-else
       class="p-4"
