@@ -7,3 +7,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useSeoMeta({ title: 'MyYoutube' })
+</script>

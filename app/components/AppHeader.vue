@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="flex place-content-between items-center h-15 fixed top-0 w-full backdrop-blur-xs"
+    class="flex place-content-between items-center p-4 h-15 fixed top-0 w-full backdrop-blur-xs"
   >
-    <div class="flex items-center ml-4 gap-5">
+    <div class="flex items-center gap-5">
       <NuxtLink to="/">
         <div class="flex gap-1">
           <UIcon
@@ -23,37 +23,23 @@
           :ui="{
             trailing: 'pe-1',
             base: '!rounded-full',
-            wrapper: '!rounded-full',
-            inner: '!rounded-full',
-            width: 'w-xl'
+            wrapper: '!rounded-full !w-[600px]',
+            inner: '!rounded-full'
           }"
           size="xl"
           icon="i-lucide-search"
-        >
-          <template
-            v-if="value?.length"
-            #trailing
-          >
-            <UButton
-              color="neutral"
-              variant="link"
-              size="sm"
-              icon="i-lucide-circle-x"
-              aria-label="Clear input"
-              @click="value = ''"
-            />
-          </template>
-        </UInput>
+          class="w-[500px]"
+        />
       </div>
     </div>
-    <div class="flex gap-2 items-center">
+    <div class="flex gap-4 items-center">
       <UIcon
         name="i-lucide-bell"
-        class="size-6"
+        class="size-8 hover:cursor-pointer"
       />
       <UIcon
         name="i-lucide-circle-user-round"
-        class="size-6"
+        class="size-8 hover:cursor-pointer"
       />
     </div>
   </nav>

@@ -16,3 +16,8 @@
   --color-green-900: #0a5331;
   --color-green-950: #052e16;
 }
+
+html,
+body {
+  background-color: #0f0f0f;
+}
