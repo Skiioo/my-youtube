@@ -1,18 +1,18 @@
 <template>
-  <div>Historical</div>
+  <div>Historical test</div>
 </template>
 
 <script setup>
-const route = useRoute()
+const route = useRoute();
 
 const pageTitle = computed(() => {
-  const segments = route.path.split('/').filter(Boolean)
-  if (!segments.length) return 'Home'
+  const segments = route.path.split("/").filter(Boolean);
+  if (!segments.length) return "Home";
   return segments
     .at(-1)
-    .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, c => c.toUpperCase())
-})
+    .replace(/[-_]/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+});
 
-useSeoMeta({ title: pageTitle.value })
+useSeoMeta({ title: pageTitle.value });
 </script>
